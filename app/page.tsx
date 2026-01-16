@@ -94,12 +94,12 @@ export default function Home() {
       {/* Navbar */}
       <header className="bg-health-dark backdrop-blur shadow-sm sticky top-0 z-50">
         {/* Announcement Bar */}
-        <div className="bg-health-secondary max-w-7xl mx-auto px-6 py-1 text-center text-base text-health-white">
+        <div className=" w-full bg-health-secondary max-w-7xl mx-auto px-6 py-1 text-center text-base text-health-white">
           The health and well-being of our patients and healthcare team will always be our priority.
         </div>
 
         {/* Main Navbar */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
           {/* Logo */}
             <div className="flex items-center gap-2">
               <Image src="/logo.svg" alt="HealthConnect" width={32} height={32} />
